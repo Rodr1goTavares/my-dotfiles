@@ -17,12 +17,20 @@ general {
     gaps_in = 5
     gaps_out = 10
     border_size = 2
+
+    # Default color
     #col.active_border = rgba(ffffffee) rgba(bfbfbfb0) rgba(bfbfbfb0) rgba(ffffffee) 45deg
     #col.inactive_border = rgba(2a2a2ab0) rgba(3c3c3cb0) rgba(3c3c3cb0) rgba(2a2a2ab0) 45deg
+    
+    # Gradient
+    #col.inactive_border = rgba(957fb8b0) 
+    #col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
 
-    col.inactive_border = rgba(957fb8b0) 
-    col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
-    resize_on_border = yes
+    # No gradient
+    col.active_border = rgba(ffffffee) 45deg
+    col.inactive_border = rgba(2a2a2ab0) 45deg
+
+  resize_on_border = yes
 }
 
 decoration {
