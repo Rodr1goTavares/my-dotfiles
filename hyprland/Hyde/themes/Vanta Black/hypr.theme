@@ -24,20 +24,18 @@ general {
     
     # Gradient
     #col.inactive_border = rgba(957fb8b0) 
-    #col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
+    col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
 
     # No gradient
-    col.active_border = rgba(ffffffee) 45deg
-    col.inactive_border = rgba(2a2a2ab0) 45deg
-
-  resize_on_border = yes
+    #col.active_border = rgba(ffffffee)
+    col.inactive_border = rgba(2a2a2ab0)
 }
 
 decoration {
-    rounding = 0
+    rounding = 3
 
-    active_opacity = 1.15
-    inactive_opacity = 1.15
+    active_opacity = 1.00
+    inactive_opacity = 1.00
 
     blur {
         enabled = no
@@ -77,4 +75,4 @@ group {
 }
 
 
-layerrule = unset,waybar
+#layerrule = unset,waybar
