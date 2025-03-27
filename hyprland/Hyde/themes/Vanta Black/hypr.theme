@@ -24,7 +24,8 @@ general {
     
     # Gradient
     #col.inactive_border = rgba(957fb8b0) 
-    col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
+    #col.active_border = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg 
+    col.active_border = rgba(dcd7baee) rgba(957fb8b0) 
 
     # No gradient
     #col.active_border = rgba(ffffffee)
@@ -34,8 +35,8 @@ general {
 decoration {
     rounding = 3
 
-    active_opacity = 1.00
-    inactive_opacity = 1.00
+    #active_opacity = 1.00
+    #inactive_opacity = 1.00
 
     blur {
         enabled = no
@@ -48,8 +49,8 @@ decoration {
         popups = true
     }
 
-    dim_inactive = false
-    dim_strength = 0.05
+    #dim_inactive = false
+    #dim_strength = 0.05
 
     shadow {
         enabled = false
@@ -62,8 +63,8 @@ decoration {
 }
 
 group {
-    col.border_inactive = rgba(1a1a1ab0)
-    col.border_active = rgba(ffffffee) rgba(bfbfbfb0) rgba(bfbfbfb0) rgba(ffffffee) 45deg
+    #col.border_inactive = rgba(1a1a1ab0)
+    #col.border_active = rgba(ffffffee) rgba(bfbfbfb0) rgba(bfbfbfb0) rgba(ffffffee) 45deg
 
     groupbar {
       col.active = rgba(bfbfbfcc)
@@ -75,4 +76,4 @@ group {
 }
 
 
-#layerrule = unset,waybar
+layerrule = unset,waybar
