@@ -52,7 +52,7 @@ color=#b16286
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-label= CPU
+label=   CPU  
 interval=10
 min_width=CPU: 100.00%
 color=#fb4934
@@ -112,17 +112,17 @@ color=#b16286
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label= HD /home
+label=   
 interval=30
 color=#fb4934
 separator_block_width=10
 
 # my root / partition
-[disk]
-label=/
-instance=/dev/sda3
-interval=30
-color=#fb4934
+#[disk]
+#label=/
+#instance=/dev/sda3
+#interval=30
+#color=#fb4934
 
 
 ########################
@@ -139,7 +139,7 @@ color=#b16286
 instance=enp2s0
 interval=10
 color=#b8bb26
-label= WIFI
+label=   
 separator_block_width=5
 
 [bandwidth]
@@ -173,7 +173,7 @@ color=#b16286
 
 
 [openvpn]
-label= VPN
+label=   Tun0:
 interval=10
 min_width=VPN: 100.00%
 color=#b8bb26
@@ -193,7 +193,7 @@ color=#b16286
 # The battery instance defaults to 0.
 [volume]
 #label=BATT
-label=🕪 VOL
+label=🕪  
 #instance=1
 interval=30
 color=#fabd2f
@@ -211,7 +211,7 @@ color=#b16286
 [date]
 command=date
 interval=1 
-label=
+label=  
 color=#b8bb26
 
 #lightred #fb4934
@@ -224,4 +224,5 @@ color=#b8bb26
 #purple #b16286
 #aqua #689d68
 #
+
 
